@@ -2528,3 +2528,106 @@ UnknownFunction []
 [2024.02.14-20.56.44:255][700]AssetCheck: New page: Asset Save: TestLevel
 [2024.02.14-20.56.44:255][700]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/TestLevel.TestLevel
 [2024.02.14-20.56.49:934][947]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/MyContent/Maps/ThirdPersonMap does not exist, will not scan.
+[2024.02.14-21.03.09:483][  1]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.14-21.03.10:252][ 52]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/MyContent/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel
+[2024.02.14-21.03.10:252][ 52]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.14-21.03.10:252][ 52]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.14-21.03.28:772][309]LogSlate: Window 'TestLevel' being destroyed
+[2024.02.14-21.05.33:224][852]LogSlate: Window 'TestLevel' being destroyed
+[2024.02.14-21.06.59:978][312]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.14-21.07.00:033][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/TestLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.14-21.07.00:086][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.02.14-21.07.00:130][312]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/TestLevel
+[2024.02.14-21.07.00:131][312]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/TestLevelB697C3E84E87FF2891ED178F3826845C.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/TestLevel.umap'
+[2024.02.14-21.07.00:138][312]LogFileHelpers: Saving map 'TestLevel' took 0.107
+[2024.02.14-21.07.00:145][312]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 2.55 sec)
+[2024.02.14-21.07.00:147][312]AssetCheck: New page: Asset Save: TestLevel
+[2024.02.14-21.07.00:147][312]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/TestLevel.TestLevel
+[2024.02.14-21.07.17:517][ 59]LogSlate: Window 'TestLevel' being destroyed
+[2024.02.14-21.07.57:602][448]Cmd: DELETE
+[2024.02.14-21.07.57:602][448]Cmd: ACTOR DELETE
+[2024.02.14-21.07.57:606][448]LogEditorActor: Deleted Actor: Brush
+[2024.02.14-21.07.57:629][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.02.14-21.07.57:633][448]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.02.14-21.08.36:023][ 61]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Box_E11938AC.Box_E11938AC
+[2024.02.14-21.08.36:023][ 61]LogStaticMesh: Display: Building static mesh Box_E11938AC...
+[2024.02.14-21.08.36:025][ 61]LogActorFactory: Actor Factory spawned StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Box_E11938AC.Box_E11938AC as actor: StaticMeshActor /Game/MyContent/Maps/TestLevel.TestLevel:PersistentLevel.StaticMeshActor_114
+[2024.02.14-21.08.36:027][ 61]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Maps/_GENERATED/jhonn/Box_E11938AC.Box_E11938AC
+[2024.02.14-21.09.13:615][449]LogContentBrowser: Attempting asset rename: Box_E11938AC -> Platform_staticmesh
+[2024.02.14-21.09.13:657][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.14-21.09.13:765][449]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/_GENERATED/jhonn/Platform_staticmesh
+[2024.02.14-21.09.13:765][449]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Platform_staticmesh66CFB82D475D397B23B087A9EBCBDD30.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/Platform_staticmesh.uasset'
+[2024.02.14-21.09.13:777][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 2.67 sec)
+[2024.02.14-21.09.13:805][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.14-21.09.13:825][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.14-21.09.13:841][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.02.14-21.09.13:842][449]AssetCheck: New page: Asset Save: Platform_staticmesh
+[2024.02.14-21.09.13:842][449]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Platform_staticmesh.Platform_staticmesh
+[2024.02.14-21.09.17:368][773]LogContentBrowser: Attempting asset rename: Platform_staticmesh -> Platform_staticmesh
+[2024.02.14-21.10.20:152][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.14-21.10.20:201][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/TestLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.14-21.10.20:254][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.02.14-21.10.20:300][854]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/TestLevel
+[2024.02.14-21.10.20:300][854]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/TestLevel90594E264D04BC30EBC758A15C1443BB.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/TestLevel.umap'
+[2024.02.14-21.10.20:308][854]LogFileHelpers: Saving map 'TestLevel' took 0.107
+[2024.02.14-21.10.20:314][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 2.84 sec)
+[2024.02.14-21.10.20:316][854]AssetCheck: New page: Asset Save: TestLevel
+[2024.02.14-21.10.20:316][854]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/TestLevel.TestLevel
+[2024.02.14-21.10.23:313][167]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.14-21.10.23:320][167]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.14-21.10.23:321][167]LogPlayLevel: [PlayLevel] Compiling Gun before play...
+[2024.02.14-21.10.23:339][167]LogPlayLevel: [PlayLevel] Compiling TestLevel before play...
+[2024.02.14-21.10.23:370][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.14-21.10.23:371][167]LogPlayLevel: PlayLevel: Blueprint regeneration took 50 ms (2 blueprints)
+[2024.02.14-21.10.23:371][167]PIE: New page: PIE session: TestLevel (Feb 14, 2024, 3:10:23 PM)
+[2024.02.14-21.10.23:371][167]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestLevel
+[2024.02.14-21.10.23:382][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010690s)
+[2024.02.14-21.10.23:382][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestLevel.TestLevel to /Game/MyContent/Maps/UEDPIE_0_TestLevel.TestLevel (0.010727s)
+[2024.02.14-21.10.23:400][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.02.14-21.10.23:401][167]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.14-21.10.23:401][167]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.14-21.10.23:402][167]LogAIModule: Creating AISystem for world TestLevel
+[2024.02.14-21.10.23:402][167]LogPlayLevel: PIE: World Init took: (0.001339s)
+[2024.02.14-21.10.23:402][167]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.02.14-21.10.23:402][167]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.14-21.10.23:402][167]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.14-21.10.23:402][167]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.14-21.10.23:403][167]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.14-21.10.23:403][167]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.14-21.10.23:403][167]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.14-21.10.23:403][167]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.14-21.10.23:403][167]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.14-21.10.23:403][167]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.14-21.10.23:403][167]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.14-21.10.23:403][167]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.14-21.10.23:406][167]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.14-21.10.23:442][167]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.02.14-21.10.23:442][167]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.14-21.10.23:442][167]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.14-21.10.23:442][167]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.14-21.10.23:443][167]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.02.14-21.10.23:443][167]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.02.14-21.10.23:445][167]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.02.14-21.10.23:445][167]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.02.14-21.10.23:445][167]LogInit: FAudioDevice initialized with ID 3.
+[2024.02.14-21.10.23:445][167]LogAudio: Display: Audio Device (ID: 3) registered with world 'TestLevel'.
+[2024.02.14-21.10.23:445][167]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.02.14-21.10.23:449][167]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.14-21.10.23:457][167]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2024.02.14-18.10.23
+[2024.02.14-21.10.23:457][167]LogWorld: Bringing up level for play took: 0.007720
+[2024.02.14-21.10.23:460][167]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.02.14-21.10.23:465][167]PIE: Server logged in
+[2024.02.14-21.10.23:466][167]PIE: Play in editor total start time 0.146 seconds.
+[2024.02.14-21.10.31:546][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.14-21.10.31:546][ 61]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_TestLevel
+[2024.02.14-21.10.31:546][ 61]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.14-21.10.31:547][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.14-21.10.31:551][ 61]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.14-21.10.31:557][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.14-21.10.31:575][ 61]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.14-21.10.31:575][ 61]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.02.14-21.10.31:576][ 61]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.02.14-21.10.31:578][ 61]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.02.14-21.10.31:583][ 61]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.14-21.10.31:587][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.02.14-21.10.31:693][ 62]LogPlayLevel: Display: Destroying online subsystem :Context_12
