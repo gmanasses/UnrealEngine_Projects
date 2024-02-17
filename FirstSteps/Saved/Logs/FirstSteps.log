@@ -1382,3 +1382,173 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.17-18.36.49:566][571]LogViewport: Scene viewport resized to 1265x900, mode Windowed.
 [2024.02.17-18.36.49:660][572]LogViewport: Scene viewport resized to 1276x900, mode Windowed.
 [2024.02.17-18.36.49:737][573]LogViewport: Scene viewport resized to 1277x900, mode Windowed.
+[2024.02.17-18.43.47:958][532]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-18.43.48:008][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-18.43.48:077][532]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-18.43.48:104][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.02.17-18.43.48:124][532]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.17-18.43.48:125][532]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacter584D0C7D494BF7DC5EFD2A8018973ED6.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.17-18.43.48:134][532]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 789 ms)
+[2024.02.17-18.43.48:135][532]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.17-18.43.48:135][532]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.17-18.43.56:080][445]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-18.43.56:135][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.02.17-18.43.56:150][445]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.17-18.43.56:151][445]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacter9AB0936541428F233874A9859A25B083.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.17-18.43.56:158][445]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 867 ms)
+[2024.02.17-18.43.56:159][445]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.17-18.43.56:159][445]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.17-18.44.06:563][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-18.44.06:614][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.02.17-18.44.06:630][680]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.17-18.44.06:630][680]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacter1BFD6D424B95416662BB82913DBBF2E0.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.17-18.44.06:638][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 941 ms)
+[2024.02.17-18.44.06:641][680]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.17-18.44.06:641][680]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.17-18.44.17:422][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-18.44.17:471][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.02.17-18.44.17:487][964]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.17-18.44.17:488][964]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacterBB99DCFF446784783795BAB3328E3794.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.17-18.44.17:495][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 1.01 sec)
+[2024.02.17-18.44.17:496][964]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.17-18.44.17:496][964]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.17-18.45.34:560][ 13]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.02.17-18.45.34:560][ 13]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.02.17-18.45.46:767][474]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-18.45.46:823][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.02.17-18.45.46:839][474]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.17-18.45.46:840][474]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacter762B85EB40405EE0104913BBF887D067.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.17-18.45.46:847][474]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 1.09 sec)
+[2024.02.17-18.45.46:849][474]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.17-18.45.46:849][474]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.17-18.46.18:531][830]LogSlate: Took 0.005917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.02.17-18.46.18:555][832]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.02.17-18.46.46:126][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.02.17-18.46.46:128][522]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Maps/TestLevel' took 0.027
+[2024.02.17-18.46.46:129][522]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.02.17-18.46.46:180][522]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.02.17-18.46.46:180][522]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.02.17-18.46.46:197][522]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2
+[2024.02.17-18.46.46:197][522]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacter_Auto2561049164FB88FE608BF9F8B5FB9458A.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2.uasset'
+[2024.02.17-18.46.46:198][522]LogFileHelpers: Auto-saving content packages took 0.070
+[2024.02.17-18.57.57:683][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.02.17-18.57.57:686][435]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Maps/TestLevel' took 0.024
+[2024.02.17-18.57.57:687][435]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.02.17-18.57.57:738][435]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.02.17-18.57.57:739][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.02.17-18.57.57:756][435]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3
+[2024.02.17-18.57.57:756][435]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacter_Auto33B2AA51F4F26EB5B2615D1A6DD918B85.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3.uasset'
+[2024.02.17-18.57.57:757][435]LogFileHelpers: Auto-saving content packages took 0.071
+[2024.02.17-19.10.12:550][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2024.02.17-19.10.12:553][247]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Maps/TestLevel' took 0.028
+[2024.02.17-19.10.12:554][247]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.02.17-19.10.12:607][247]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.02.17-19.10.12:607][247]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.02.17-19.10.12:624][247]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4
+[2024.02.17-19.10.12:624][247]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacter_Auto456281B9F49DBE46F67C6ADBF65FE1CD8.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4.uasset'
+[2024.02.17-19.10.12:625][247]LogFileHelpers: Auto-saving content packages took 0.073
+[2024.02.17-19.16.20:032][440]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-19.16.20:084][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2024.02.17-19.16.20:101][440]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.02.17-19.16.20:102][440]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BP_ThirdPersonCharacter8DD53D054C7D39B4B256EA8C51CD6D9D.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.02.17-19.16.20:110][440]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 1.17 sec)
+[2024.02.17-19.16.20:112][440]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.02.17-19.16.20:112][440]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.17-19.16.21:443][563]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.02.17-19.16.21:539][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.02.17-19.17.02:599][282]LogDerivedDataCache: C:/Users/jhonn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.254 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1653 files in 2811 folders with total size 293 MiB.
+[2024.02.17-19.19.15:773][684]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-19.19.15:829][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/TestLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.17-19.19.15:884][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.02.17-19.19.15:934][684]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/TestLevel
+[2024.02.17-19.19.15:935][684]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/TestLevel5A45953E4CAF4419903D20B86996BD75.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/TestLevel.umap'
+[2024.02.17-19.19.15:942][684]LogFileHelpers: Saving map 'TestLevel' took 0.114
+[2024.02.17-19.19.15:950][684]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 1.35 sec)
+[2024.02.17-19.19.15:952][684]AssetCheck: New page: Asset Save: TestLevel
+[2024.02.17-19.19.15:952][684]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/TestLevel.TestLevel
+[2024.02.17-19.19.22:164][318]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Programming/ItemCollector.ItemCollector
+[2024.02.17-19.19.22:164][318]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-19.19.22:164][318]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-19.21.45:400][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-19.21.45:455][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Programming/ItemCollector" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/ItemCollector.uasset" SILENT=true
+[2024.02.17-19.21.45:463][943]LogSavePackage: Moving output files for package: /Game/MyContent/Programming/ItemCollector
+[2024.02.17-19.21.45:463][943]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/ItemCollector4FCF78C248378BFAC3F55EB5CD2AAED6.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/ItemCollector.uasset'
+[2024.02.17-19.21.45:470][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.42 sec)
+[2024.02.17-19.21.45:472][943]AssetCheck: New page: Asset Save: ItemCollector
+[2024.02.17-19.21.45:472][943]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/ItemCollector.ItemCollector
+[2024.02.17-19.21.49:138][381]BlueprintLog: New page: Compile ItemCollector
+[2024.02.17-19.21.49:210][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.02.17-19.21.56:794][243]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Programming/Ammo.Ammo
+[2024.02.17-19.21.56:794][243]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-19.21.56:794][243]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-19.22.11:797][985]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.02.17-19.22.11:797][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-19.22.45:142][813]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Comment Color entirely.
+[2024.02.17-19.22.45:155][813]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.17-19.27.02:513][528]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-19.27.02:606][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Programming/Ammo" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/Ammo.uasset" SILENT=true
+[2024.02.17-19.27.02:615][528]LogSavePackage: Moving output files for package: /Game/MyContent/Programming/Ammo
+[2024.02.17-19.27.02:615][528]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/AmmoA790D1824F08FE009A032F9E237D37DC.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/Ammo.uasset'
+[2024.02.17-19.27.02:623][528]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 1.53 sec)
+[2024.02.17-19.27.02:624][528]AssetCheck: New page: Asset Save: Ammo
+[2024.02.17-19.27.02:624][528]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/Ammo.Ammo
+[2024.02.17-19.27.26:695][286]BlueprintLog: New page: Compile Ammo
+[2024.02.17-19.27.26:754][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.02.17-19.27.31:446][778]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.17-19.27.31:453][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.17-19.27.31:453][778]PIE: New page: PIE session: TestLevel (Feb 17, 2024, 1:27:31 PM)
+[2024.02.17-19.27.31:453][778]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_TestLevel
+[2024.02.17-19.27.31:467][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013213s)
+[2024.02.17-19.27.31:467][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/TestLevel.TestLevel to /Game/MyContent/Maps/UEDPIE_0_TestLevel.TestLevel (0.013330s)
+[2024.02.17-19.27.31:497][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.02.17-19.27.31:500][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.17-19.27.31:500][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.17-19.27.31:501][778]LogAIModule: Creating AISystem for world TestLevel
+[2024.02.17-19.27.31:501][778]LogPlayLevel: PIE: World Init took: (0.001858s)
+[2024.02.17-19.27.31:501][778]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.02.17-19.27.31:502][778]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.17-19.27.31:502][778]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.17-19.27.31:502][778]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.17-19.27.31:502][778]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.17-19.27.31:502][778]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.17-19.27.31:502][778]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.17-19.27.31:502][778]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.17-19.27.31:502][778]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.17-19.27.31:502][778]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.17-19.27.31:502][778]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.17-19.27.31:502][778]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.17-19.27.31:505][778]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.17-19.27.31:561][778]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G533 Gaming Headset)
+[2024.02.17-19.27.31:562][778]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.17-19.27.31:562][778]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.17-19.27.31:562][778]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.17-19.27.31:564][778]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.02.17-19.27.31:564][778]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2024.02.17-19.27.31:566][778]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.02.17-19.27.31:566][778]LogInit: FAudioDevice initialized with ID 3.
+[2024.02.17-19.27.31:566][778]LogAudio: Display: Audio Device (ID: 3) registered with world 'TestLevel'.
+[2024.02.17-19.27.31:566][778]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.02.17-19.27.31:566][778]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.02.17-19.27.31:574][778]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.17-19.27.31:583][778]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2024.02.17-16.27.31
+[2024.02.17-19.27.31:584][778]LogWorld: Bringing up level for play took: 0.008986
+[2024.02.17-19.27.31:586][778]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.02.17-19.27.31:593][778]PIE: Server logged in
+[2024.02.17-19.27.31:595][778]PIE: Play in editor total start time 0.142 seconds.
+[2024.02.17-19.27.34:194][ 50]LogBlueprintUserMessages: [Ammo_C_1] 15
+[2024.02.17-19.27.35:807][234]LogBlueprintUserMessages: [Ammo_C_0] 30
+[2024.02.17-19.27.37:113][385]LogBlueprintUserMessages: [Ammo_C_2] 45
+[2024.02.17-19.27.38:219][512]LogBlueprintUserMessages: [Ammo_C_3] 60
+[2024.02.17-19.27.43:827][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.17-19.27.43:827][155]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_TestLevel
+[2024.02.17-19.27.43:827][155]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.17-19.27.43:828][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-19.27.43:832][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.17-19.27.43:839][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.17-19.27.43:855][155]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.17-19.27.43:856][155]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.02.17-19.27.43:856][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.02.17-19.27.43:858][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.02.17-19.27.43:863][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.17-19.27.43:868][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.17-19.27.43:942][156]LogPlayLevel: Display: Destroying online subsystem :Context_16
