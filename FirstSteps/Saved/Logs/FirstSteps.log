@@ -1552,3 +1552,18 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.17-19.27.43:863][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.02.17-19.27.43:868][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
 [2024.02.17-19.27.43:942][156]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.02.17-19.28.42:961][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-19.28.43:080][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Programming/Ammo" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/Ammo.uasset" SILENT=true
+[2024.02.17-19.28.43:089][408]LogSavePackage: Moving output files for package: /Game/MyContent/Programming/Ammo
+[2024.02.17-19.28.43:090][408]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Ammo218AF9D4466AED3F97BC988865335AA0.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/Ammo.uasset'
+[2024.02.17-19.28.43:097][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 1.66 sec)
+[2024.02.17-19.28.43:098][408]AssetCheck: New page: Asset Save: Ammo
+[2024.02.17-19.28.43:098][408]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/Ammo.Ammo
+[2024.02.17-19.29.27:411][655]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.17-19.29.41:921][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.17-19.29.42:028][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Programming/Ammo" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/Ammo.uasset" SILENT=true
+[2024.02.17-19.29.42:036][384]LogSavePackage: Moving output files for package: /Game/MyContent/Programming/Ammo
+[2024.02.17-19.29.42:037][384]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Ammo47CECF94413168A3F9DB87A2718EA9F0.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/Ammo.uasset'
+[2024.02.17-19.29.42:044][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 1.79 sec)
+[2024.02.17-19.29.42:045][384]AssetCheck: New page: Asset Save: Ammo
+[2024.02.17-19.29.42:045][384]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/Ammo.Ammo
