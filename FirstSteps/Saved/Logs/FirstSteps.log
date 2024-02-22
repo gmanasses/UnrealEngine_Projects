@@ -10091,3 +10091,69 @@ Script Stack (0 frames) :
 [2024.02.22-20.39.53:905][417]LogEditorActor: Deleted Actor: StaticMeshActor
 [2024.02.22-20.39.53:928][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
 [2024.02.22-20.39.53:932][417]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.02.22-20.42.57:340][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.42.57:440][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Programming/FireTrap" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/FireTrap.uasset" SILENT=true
+[2024.02.22-20.42.57:457][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Programming/FireTrap
+[2024.02.22-20.42.57:458][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/FireTrap638DC3C54D3F31F25688E8BB570D6A22.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/FireTrap.uasset'
+[2024.02.22-20.42.57:459][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/_GENERATED/jhonn/Merge_CD435513" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/Merge_CD435513.uasset" SILENT=true
+[2024.02.22-20.42.57:460][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/_GENERATED/jhonn/Merge_CD435513
+[2024.02.22-20.42.57:461][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Merge_CD435513E715B8E046F99CFF45D9DDBD951CF2F7.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/Merge_CD435513.uasset'
+[2024.02.22-20.42.57:463][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh
+[2024.02.22-20.42.57:463][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Merge_StaticMeshFB043781441964C3785721BF57B4FA77.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh.uasset'
+[2024.02.22-20.42.57:483][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Programming/RemoteController_ItemCollector
+[2024.02.22-20.42.57:484][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/RemoteController_ItemCollector15399FDB47C458768F2840B3209B0F4C.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/RemoteController_ItemCollector.uasset'
+[2024.02.22-20.42.57:485][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mashes/FireTrap_StaticMesh" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Mashes/FireTrap_StaticMesh.uasset" SILENT=true
+[2024.02.22-20.42.57:490][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Mashes/FireTrap_StaticMesh
+[2024.02.22-20.42.57:490][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/FireTrap_StaticMeshD8DD5B3D48D9E0187B766195845C5092.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Mashes/FireTrap_StaticMesh.uasset'
+[2024.02.22-20.42.57:493][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mashes/MedKit_StaticMesh" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Mashes/MedKit_StaticMesh.uasset" SILENT=true
+[2024.02.22-20.42.57:495][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Mashes/MedKit_StaticMesh
+[2024.02.22-20.42.57:495][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/MedKit_StaticMesh9A33746A456D58F42496A0870FD209D5.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Mashes/MedKit_StaticMesh.uasset'
+[2024.02.22-20.42.57:497][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mashes/Platform_StaticMesh" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Mashes/Platform_StaticMesh.uasset" SILENT=true
+[2024.02.22-20.42.57:499][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Mashes/Platform_StaticMesh
+[2024.02.22-20.42.57:499][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Platform_StaticMesh69090EA645617716984A3EA89DA1B7FC.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Mashes/Platform_StaticMesh.uasset'
+[2024.02.22-20.42.57:501][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/_GENERATED/jhonn/Platform_StaticMesh
+[2024.02.22-20.42.57:502][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Platform_StaticMeshE1102FE645FF21A66D6C7E9417435E2A.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/Platform_StaticMesh.uasset'
+[2024.02.22-20.42.57:503][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Mashes/RemoteController_StaticMesh" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Mashes/RemoteController_StaticMesh.uasset" SILENT=true
+[2024.02.22-20.42.57:506][ 39]LogSavePackage: Moving output files for package: /Game/MyContent/Mashes/RemoteController_StaticMesh
+[2024.02.22-20.42.57:506][ 39]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/RemoteController_StaticMeshCF4941A3471E249B4FE672A2FCB280EE.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Mashes/RemoteController_StaticMesh.uasset'
+[2024.02.22-20.42.57:516][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 12.0 sec)
+[2024.02.22-20.42.57:563][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.02.22-20.42.57:583][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.02.22-20.42.57:600][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.02.22-20.42.57:626][ 39]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/FireTrap.FireTrap
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Maps/_GENERATED/jhonn/Merge_CD435513.Merge_CD435513
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh.Merge_StaticMesh
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/RemoteController_ItemCollector.RemoteController_ItemCollector
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyContent/Mashes/FireTrap_StaticMesh.FireTrap_StaticMesh
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyContent/Mashes/MedKit_StaticMesh.MedKit_StaticMesh
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyContent/Mashes/Platform_StaticMesh.Platform_StaticMesh
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Maps/_GENERATED/jhonn/Platform_StaticMesh.Platform_StaticMesh
+[2024.02.22-20.42.57:626][ 39]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyContent/Mashes/RemoteController_StaticMesh.RemoteController_StaticMesh
+[2024.02.22-20.44.01:302][952]LogContentBrowser: Deferred new asset file creation: ItemCollector_Child
+[2024.02.22-20.44.01:335][952]LogContentBrowser: Creating deferred item: ItemCollector_Child
+[2024.02.22-20.44.01:359][953]LogContentBrowser: Renaming the item being created (Deferred Item: ItemCollector_Child).
+[2024.02.22-20.44.17:254][660]LogContentBrowser: Attempting asset rename: ItemCollector_Child -> MedKit_ItemCollector
+[2024.02.22-20.44.17:278][660]LogContentBrowser: End creating deferred item ItemCollector_Child
+[2024.02.22-20.44.59:702][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.44.59:753][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/StartLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.44.59:802][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.02.22-20.44.59:850][566]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/StartLevel
+[2024.02.22-20.44.59:850][566]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/StartLevelA29C22194DED1A9D0788D9AC10AAB5C9.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap'
+[2024.02.22-20.44.59:858][566]LogFileHelpers: Saving map 'StartLevel' took 0.106
+[2024.02.22-20.44.59:865][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 12.2 sec)
+[2024.02.22-20.44.59:867][566]AssetCheck: New page: Asset Save: StartLevel
+[2024.02.22-20.44.59:867][566]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/StartLevel.StartLevel
+[2024.02.22-20.45.02:825][866]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Programming/MedKit_ItemCollector.MedKit_ItemCollector
+[2024.02.22-20.45.02:825][866]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-20.45.02:825][866]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-20.45.03:061][866]LogViewport: Scene viewport resized to 1200x691, mode Windowed.
+[2024.02.22-20.47.28:487][838]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-20.47.39:529][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.47.39:594][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Programming/MedKit_ItemCollector" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/MedKit_ItemCollector.uasset" SILENT=true
+[2024.02.22-20.47.39:600][ 61]LogSavePackage: Moving output files for package: /Game/MyContent/Programming/MedKit_ItemCollector
+[2024.02.22-20.47.39:600][ 61]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/MedKit_ItemCollectorD9126AD2452A403B59ABE3987B4C5B43.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/MedKit_ItemCollector.uasset'
+[2024.02.22-20.47.39:612][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 12.3 sec)
+[2024.02.22-20.47.39:612][ 61]AssetCheck: New page: Asset Save: MedKit_ItemCollector
+[2024.02.22-20.47.39:612][ 61]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/MedKit_ItemCollector.MedKit_ItemCollector
+[2024.02.22-20.48.45:258][634]LogDerivedDataCache: C:/Users/jhonn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.202 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5934 files in 7372 folders with total size 360 MiB.
