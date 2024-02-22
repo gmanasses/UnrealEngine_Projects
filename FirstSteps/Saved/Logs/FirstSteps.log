@@ -9532,3 +9532,562 @@ Script Stack (0 frames) :
 [2024.02.22-20.06.02:526][652]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
 [2024.02.22-20.06.02:536][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
 [2024.02.22-20.06.02:586][653]LogPlayLevel: Display: Destroying online subsystem :Context_115
+[2024.02.22-20.28.19:521][822]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.02.22-20.28.19:521][822]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.02.22-20.28.19:522][822]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_1
+[2024.02.22-20.28.19:523][822]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_1
+[2024.02.22-20.28.19:830][846]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.02.22-20.28.19:830][846]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.02.22-20.28.19:832][846]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_2
+[2024.02.22-20.28.19:833][846]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_2
+[2024.02.22-20.29.36:843][153]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.02.22-20.29.36:843][153]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.02.22-20.29.36:844][153]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_3
+[2024.02.22-20.29.36:844][153]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_3
+[2024.02.22-20.29.38:455][292]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.02.22-20.29.38:455][292]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2024.02.22-20.29.38:456][292]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_4
+[2024.02.22-20.29.38:457][292]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_4
+[2024.02.22-20.31.08:395][457]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.02.22-20.31.08:410][457]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.02.22-20.31.08:436][458]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.02.22-20.31.11:400][751]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2024.02.22-20.31.11:402][751]LogContentBrowser: End creating deferred item NewMaterial
+[2024.02.22-20.31.12:163][804]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MyContent/NewMaterial.NewMaterial
+[2024.02.22-20.31.12:218][804]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-20.31.12:218][804]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-20.31.12:571][804]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.31.12:571][804]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.31.12:571][804]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.31.12:584][804]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2024.02.22-20.31.14:179][965]LogShaderCompilers: Display: ================================================
+[2024.02.22-20.31.14:179][965]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.22-20.31.14:179][965]LogShaderCompilers: Display: Total job queries 25, among them cache hits 8 (32.00%)
+[2024.02.22-20.31.14:179][965]LogShaderCompilers: Display: Tracking 14 distinct input hashes that result in 14 distinct outputs (100.00%)
+[2024.02.22-20.31.14:179][965]LogShaderCompilers: Display: RAM used: 392.32 KiB of 819.20 MiB budget. Usage: 0.05%
+[2024.02.22-20.31.14:179][965]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.04 s
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Job execution time: average 1.45 s, max 1.45 s
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Job life time (pending + execution): average 1.48 s, max 1.48
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Shader code size: average 29.613 KiB, min 29.613 KiB, max 29.613 KiB
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.48 s
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Average processing rate: 0.68 jobs/sec
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Total thread time: 0.645 s
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Total thread preprocess time: 0.51 s
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Percentage time preprocessing: 79.06%
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Effective parallelization: 0.44 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2024.02.22-20.31.14:180][965]LogShaderCompilers: Display: ================================================
+[2024.02.22-20.31.14:290][977]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.31.14:290][977]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.31.14:290][977]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.31.14:290][977]MaterialEditorStats: Shader Count: 3
+[2024.02.22-20.31.14:528][  1]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.31.14:528][  1]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.31.14:528][  1]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.31.14:528][  1]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.31.14:528][  1]MaterialEditorStats: Shader Count: 4
+[2024.02.22-20.31.39:565][900]LogMaterial: Warning: [AssetLog] /Engine/Transient.NewMaterial: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Function LinearTosRGB: Missing function input 'Linear'
+	Function LinearTosRGB: (Node If) If input A must be of type float.
+
+[2024.02.22-20.31.39:579][900]MaterialEditorStats: Error: [SM6] Function LinearTosRGB: Missing function input 'Linear'
+[2024.02.22-20.31.39:579][900]MaterialEditorStats: Error: [SM6] Function LinearTosRGB: (Node If) If input A must be of type float.
+[2024.02.22-20.31.39:617][901]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-20.31.59:109][146]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.31.59:109][146]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.31.59:109][146]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.31.59:176][148]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.31.59:176][148]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.31.59:176][148]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.31.59:176][148]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.31.59:176][148]MaterialEditorStats: Shader Count: 4
+[2024.02.22-20.32.38:939][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.02.22-20.32.38:991][320]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/Maps/StartLevel_Auto9
+[2024.02.22-20.32.38:991][320]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/StartLevel_Auto9F0C00FBB4F6B5AD038033EB495D5622F.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Autosaves/Game/MyContent/Maps/StartLevel_Auto9.umap'
+[2024.02.22-20.32.38:992][320]LogAssetRegistry: Warning: ScanPathsSynchronous: D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Autosaves/Game/MyContent/Maps/StartLevel_Auto9.umap is in the /Temp path, will not scan.
+[2024.02.22-20.32.38:992][320]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/MyContent/Maps/StartLevel_Auto9 is in the /Temp path, will not scan.
+[2024.02.22-20.32.38:992][320]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/MyContent/Maps/StartLevel_Auto9 is in the /Temp path, will not scan.
+[2024.02.22-20.32.38:993][320]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Maps/StartLevel' took 0.079
+[2024.02.22-20.32.38:993][320]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.079
+[2024.02.22-20.32.38:993][320]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyContent/NewMaterial] ([1] browsable assets)...
+[2024.02.22-20.32.39:003][320]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyContent/NewMaterial.NewMaterial]
+[2024.02.22-20.32.39:004][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyContent/NewMaterial]
+[2024.02.22-20.32.39:004][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/NewMaterial" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Autosaves/Game/MyContent/NewMaterial_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2024.02.22-20.32.39:005][320]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyContent/NewMaterial_Auto9
+[2024.02.22-20.32.39:005][320]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/NewMaterial_Auto9616FD4414F948EC4018FA4B9F15293EF.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Autosaves/Game/MyContent/NewMaterial_Auto9.uasset'
+[2024.02.22-20.32.39:006][320]LogFileHelpers: Auto-saving content packages took 0.013
+[2024.02.22-20.32.54:240][ 47]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.32.54:240][ 47]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.32.54:240][ 47]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.32.54:288][ 49]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.32.54:288][ 49]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.32.54:288][ 49]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.32.54:288][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.32.54:288][ 49]MaterialEditorStats: Shader Count: 4
+[2024.02.22-20.32.56:005][248]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.32.56:005][248]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.32.56:005][248]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.32.56:061][250]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.32.56:062][250]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.32.56:062][250]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.32.56:062][250]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.32.56:062][250]MaterialEditorStats: Shader Count: 4
+[2024.02.22-20.32.58:323][490]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.32.58:323][490]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.32.58:323][490]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.32.58:376][492]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.32.58:376][492]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.32.58:376][492]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.32.58:376][492]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.32.58:376][492]MaterialEditorStats: Shader Count: 4
+[2024.02.22-20.33.11:690][ 62]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.33.11:690][ 62]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.11:690][ 62]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.33.11:717][ 64]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.33.11:717][ 64]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.33.11:717][ 64]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.33.11:717][ 64]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.11:717][ 64]MaterialEditorStats: Shader Count: 4
+[2024.02.22-20.33.13:305][241]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.33.13:305][241]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.13:305][241]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.33.13:337][243]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.33.13:337][243]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.33.13:337][243]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.33.13:337][243]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.13:337][243]MaterialEditorStats: Shader Count: 4
+[2024.02.22-20.33.14:520][377]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.33.14:520][377]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.14:520][377]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.33.14:544][379]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.33.14:544][379]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.33.14:544][379]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.33.14:544][379]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.14:544][379]MaterialEditorStats: Shader Count: 4
+[2024.02.22-20.33.18:612][859]LogSlate: Window 'Color Picker' being destroyed
+[2024.02.22-20.33.18:621][859]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.33.18:621][859]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.18:621][859]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.33.18:648][861]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.02.22-20.33.18:649][861]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.33.18:649][861]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.33.18:649][861]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.18:649][861]MaterialEditorStats: Shader Count: 2
+[2024.02.22-20.33.20:083][ 17]MaterialEditorStats: Texture samplers: 0/16
+[2024.02.22-20.33.20:083][ 17]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.20:083][ 17]MaterialEditorStats: Shader Count: 0
+[2024.02.22-20.33.20:605][ 73]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.02.22-20.33.20:605][ 73]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.33.20:605][ 73]MaterialEditorStats: Texture samplers: 2/16
+[2024.02.22-20.33.20:605][ 73]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.20:605][ 73]MaterialEditorStats: Shader Count: 3
+[2024.02.22-20.33.22:607][303]LogMaterialEditor: Saving and Compiling material NewMaterial
+[2024.02.22-20.33.23:204][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.02.22-20.33.23:743][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.02.22-20.33.23:756][303]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.33.24:798][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/NewMaterial" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/NewMaterial.uasset" SILENT=true
+[2024.02.22-20.33.24:800][303]LogSavePackage: Moving output files for package: /Game/MyContent/NewMaterial
+[2024.02.22-20.33.24:800][303]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/NewMaterialAED090C14010652B8B209882DF9F05AC.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/NewMaterial.uasset'
+[2024.02.22-20.33.24:808][303]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.05 sec (total: 11.1 sec)
+[2024.02.22-20.33.24:809][303]AssetCheck: New page: Asset Save: NewMaterial
+[2024.02.22-20.33.24:809][303]LogContentValidation: Display: Validating /Script/Engine.Material /Game/MyContent/NewMaterial.NewMaterial
+[2024.02.22-20.33.24:811][303]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.02.22-20.33.24:811][303]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.02.22-20.33.24:811][303]MaterialEditorStats: MaxSampler: 237 instructions
+[2024.02.22-20.33.24:811][303]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.22-20.33.24:811][303]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.02.22-20.33.24:811][303]MaterialEditorStats: Shader Count: 16
+[2024.02.22-20.33.53:290][149]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.02.22-20.33.53:343][149]LogContentBrowser: Creating deferred item: NewFolder
+[2024.02.22-20.33.53:359][150]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.02.22-20.33.55:691][379]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2024.02.22-20.33.55:692][379]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.22-20.33.58:551][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.33.58:594][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Materials/NewMaterial" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Materials/NewMaterial.uasset" SILENT=true
+[2024.02.22-20.33.58:596][593]LogSavePackage: Moving output files for package: /Game/MyContent/Materials/NewMaterial
+[2024.02.22-20.33.58:596][593]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/NewMaterialE91B6A994CC19DD6F78B2AA5A1A818D2.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Materials/NewMaterial.uasset'
+[2024.02.22-20.33.58:608][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 11.1 sec)
+[2024.02.22-20.33.58:639][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.02.22-20.33.58:664][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.02.22-20.33.58:687][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.02.22-20.33.58:709][593]AssetCheck: New page: Asset Save: NewMaterial
+[2024.02.22-20.33.58:709][593]LogContentValidation: Display: Validating /Script/Engine.Material /Game/MyContent/Materials/NewMaterial.NewMaterial
+[2024.02.22-20.34.07:042][311]LogContentBrowser: Attempting asset rename: NewMaterial -> BasicRed
+[2024.02.22-20.34.07:095][311]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.34.07:143][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Materials/BasicRed" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Materials/BasicRed.uasset" SILENT=true
+[2024.02.22-20.34.07:145][311]LogSavePackage: Moving output files for package: /Game/MyContent/Materials/BasicRed
+[2024.02.22-20.34.07:145][311]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/BasicRedE97A00C74E80F5ECFD9BEB8E0DFE1980.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Materials/BasicRed.uasset'
+[2024.02.22-20.34.07:156][311]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 11.2 sec)
+[2024.02.22-20.34.07:183][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.02.22-20.34.07:202][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.02.22-20.34.07:219][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.02.22-20.34.07:222][311]AssetCheck: New page: Asset Save: BasicRed
+[2024.02.22-20.34.07:222][311]LogContentValidation: Display: Validating /Script/Engine.Material /Game/MyContent/Materials/BasicRed.BasicRed
+[2024.02.22-20.34.09:164][475]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.02.22-20.35.23:430][473]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyContent/Programming/RemoteController_ItemCollector.RemoteController_ItemCollector
+[2024.02.22-20.35.23:430][473]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-20.35.23:430][473]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-20.35.27:597][933]LogViewport: Scene viewport resized to 1200x691, mode Windowed.
+[2024.02.22-20.35.39:146][ 42]LogSlate: Took 0.005570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: ================================================
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Total job queries 125, among them cache hits 76 (60.80%)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Tracking 49 distinct input hashes that result in 38 distinct outputs (77.55%)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: RAM used: 1.16 MiB of 819.20 MiB budget. Usage: 0.14%
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Shaders Compiled: 32
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Jobs assigned 32, completed 32 (100%)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Average time worker was idle: 23.18 s
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.08 s
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Job execution time: average 0.68 s, max 1.75 s
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Job life time (pending + execution): average 0.74 s, max 1.79
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Shader code size: average 37.472 KiB, min 29.613 KiB, max 60.691 KiB
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.68 s
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Average processing rate: 4.79 jobs/sec
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Total thread time: 13.507 s
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Total thread preprocess time: 3.501 s
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Percentage time preprocessing: 25.92%
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Effective parallelization: 2.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.56 sec, max 0.56 sec, min 0.56 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.50 sec, max 0.82 sec, min 0.30 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.71% of total time (compiled    7 times, average 0.42 sec, max 1.03 sec, min 0.27 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.63% of total time (compiled    7 times, average 0.40 sec, max 0.81 sec, min 0.30 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.10% of total time (compiled    3 times, average 0.50 sec, max 0.82 sec, min 0.30 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.25% of total time (compiled    3 times, average 0.33 sec, max 0.64 sec, min 0.16 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.12% of total time (compiled    1 times, average 0.56 sec, max 0.56 sec, min 0.56 sec)
+[2024.02.22-20.35.40:080][ 85]LogShaderCompilers: Display: ================================================
+[2024.02.22-20.35.47:363][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.35.47:426][760]LogSavePackage: Moving output files for package: /Game/MyContent/Programming/RemoteController_ItemCollector
+[2024.02.22-20.35.47:426][760]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/RemoteController_ItemCollector77D8ECD94851944CCE8D479E726B82CE.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Programming/RemoteController_ItemCollector.uasset'
+[2024.02.22-20.35.47:435][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 11.3 sec)
+[2024.02.22-20.35.47:440][760]AssetCheck: New page: Asset Save: RemoteController_ItemCollector
+[2024.02.22-20.35.47:440][760]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/RemoteController_ItemCollector.RemoteController_ItemCollector
+[2024.02.22-20.35.51:900][262]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-20.35.51:900][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.35.52:464][309]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-20.35.52:464][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.35.53:399][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.22-20.35.53:399][409]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-20.35.53:399][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.35.55:343][578]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.35.55:400][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/StartLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.35.55:447][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.02.22-20.35.55:496][578]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/StartLevel
+[2024.02.22-20.35.55:497][578]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/StartLevel969FDF4B44BE665F381DAA8B31FB736D.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap'
+[2024.02.22-20.35.55:505][578]LogFileHelpers: Saving map 'StartLevel' took 0.105
+[2024.02.22-20.35.55:521][578]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 11.4 sec)
+[2024.02.22-20.35.55:523][578]AssetCheck: New page: Asset Save: StartLevel
+[2024.02.22-20.35.55:523][578]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/StartLevel.StartLevel
+[2024.02.22-20.36.11:939][982]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79.Merge_64C96B79
+[2024.02.22-20.36.11:940][982]LogStaticMesh: Display: Building static mesh Merge_64C96B79...
+[2024.02.22-20.36.11:941][982]LogActorFactory: Actor Factory spawned StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79.Merge_64C96B79 as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_7
+[2024.02.22-20.36.11:943][982]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79.Merge_64C96B79
+[2024.02.22-20.36.11:945][982]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.11:945][982]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.15:786][300]LogStaticMesh: Display: Building static mesh Merge_64C96B79...
+[2024.02.22-20.36.15:789][300]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79.Merge_64C96B79
+[2024.02.22-20.36.15:789][300]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.15:789][300]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.18:200][504]LogStaticMesh: Display: Building static mesh Merge_64C96B79...
+[2024.02.22-20.36.18:203][504]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79.Merge_64C96B79
+[2024.02.22-20.36.18:204][504]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.18:204][504]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.20:789][715]LogStaticMesh: Display: Building static mesh Merge_64C96B79...
+[2024.02.22-20.36.20:792][715]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79.Merge_64C96B79
+[2024.02.22-20.36.20:792][715]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.20:792][715]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.24:377][  5]LogStaticMesh: Display: Building static mesh Merge_64C96B79...
+[2024.02.22-20.36.24:379][  5]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79.Merge_64C96B79
+[2024.02.22-20.36.24:380][  5]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.24:380][  5]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.27:518][316]Cmd: TRANSACTION UNDO
+[2024.02.22-20.36.27:518][316]LogEditorTransaction: Undo Simplify Mesh
+[2024.02.22-20.36.27:526][316]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.27:526][316]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.31:169][555]LogViewport: Scene viewport resized to 1244x900, mode Windowed.
+[2024.02.22-20.36.31:247][556]LogViewport: Scene viewport resized to 1227x900, mode Windowed.
+[2024.02.22-20.36.31:331][557]LogViewport: Scene viewport resized to 1205x900, mode Windowed.
+[2024.02.22-20.36.31:424][558]LogViewport: Scene viewport resized to 1204x900, mode Windowed.
+[2024.02.22-20.36.31:508][559]LogViewport: Scene viewport resized to 1198x900, mode Windowed.
+[2024.02.22-20.36.31:590][560]LogViewport: Scene viewport resized to 1183x900, mode Windowed.
+[2024.02.22-20.36.31:672][561]LogViewport: Scene viewport resized to 1157x900, mode Windowed.
+[2024.02.22-20.36.31:760][562]LogViewport: Scene viewport resized to 1155x900, mode Windowed.
+[2024.02.22-20.36.32:044][585]LogViewport: Scene viewport resized to 1153x900, mode Windowed.
+[2024.02.22-20.36.32:118][586]LogViewport: Scene viewport resized to 1148x900, mode Windowed.
+[2024.02.22-20.36.32:304][598]LogViewport: Scene viewport resized to 1150x900, mode Windowed.
+[2024.02.22-20.36.32:383][599]LogViewport: Scene viewport resized to 1152x900, mode Windowed.
+[2024.02.22-20.36.32:468][600]LogViewport: Scene viewport resized to 1154x900, mode Windowed.
+[2024.02.22-20.36.38:664][172]LogStaticMesh: Display: Building static mesh Merge_64C96B79...
+[2024.02.22-20.36.38:681][172]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79) ...
+[2024.02.22-20.36.38:703][172]LogStaticMesh: Built static mesh [0.04s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_64C96B79.Merge_64C96B79
+[2024.02.22-20.36.38:714][172]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.38:714][172]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.36.42:342][519]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-20.36.42:350][519]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.22-20.36.42:351][519]LogPlayLevel: [PlayLevel] Compiling StartLevel before play...
+[2024.02.22-20.36.42:401][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.02.22-20.36.42:406][519]LogPlayLevel: PlayLevel: Blueprint regeneration took 55 ms (1 blueprints)
+[2024.02.22-20.36.42:406][519]PIE: New page: PIE session: StartLevel (Feb 22, 2024, 2:36:42 PM)
+[2024.02.22-20.36.42:406][519]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_StartLevel
+[2024.02.22-20.36.42:420][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013350s)
+[2024.02.22-20.36.42:420][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/StartLevel.StartLevel to /Game/MyContent/Maps/UEDPIE_0_StartLevel.StartLevel (0.013389s)
+[2024.02.22-20.36.42:438][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.02.22-20.36.42:440][519]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-20.36.42:440][519]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-20.36.42:441][519]LogAIModule: Creating AISystem for world StartLevel
+[2024.02.22-20.36.42:441][519]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2024.02.22-20.36.42:441][519]LogAudio: Display: Creating Audio Device:                 Id: 90, Scope: Unique, Realtime: True
+[2024.02.22-20.36.42:441][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-20.36.42:441][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-20.36.42:441][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-20.36.42:441][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-20.36.42:441][519]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-20.36.42:441][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-20.36.42:441][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-20.36.42:441][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-20.36.42:442][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-20.36.42:442][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-20.36.42:442][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-20.36.42:444][519]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-20.36.42:481][519]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.02.22-20.36.42:482][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-20.36.42:482][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-20.36.42:482][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-20.36.42:483][519]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=90
+[2024.02.22-20.36.42:483][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=90
+[2024.02.22-20.36.42:485][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=90
+[2024.02.22-20.36.42:485][519]LogInit: FAudioDevice initialized with ID 90.
+[2024.02.22-20.36.42:485][519]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=90
+[2024.02.22-20.36.42:485][519]LogAudio: Display: Audio Device (ID: 90) registered with world 'StartLevel'.
+[2024.02.22-20.36.42:485][519]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 90
+[2024.02.22-20.36.42:489][519]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-20.36.42:498][519]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2024.02.22-17.36.42
+[2024.02.22-20.36.42:499][519]LogWorld: Bringing up level for play took: 0.009161
+[2024.02.22-20.36.42:501][519]LogOnline: OSS: Created online subsystem instance for: :Context_119
+[2024.02.22-20.36.42:508][519]PIE: Server logged in
+[2024.02.22-20.36.42:509][519]PIE: Play in editor total start time 0.159 seconds.
+[2024.02.22-20.36.44:249][690]Set new viewmode: Wireframe
+[2024.02.22-20.36.53:809][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.36.53:809][820]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_StartLevel
+[2024.02.22-20.36.53:810][820]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-20.36.53:811][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.36.53:815][820]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-20.36.53:822][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.36.53:839][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.36.53:841][820]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 90
+[2024.02.22-20.36.53:841][820]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2024.02.22-20.36.53:843][820]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2024.02.22-20.36.53:852][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.02.22-20.36.53:960][821]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2024.02.22-20.37.07:051][978]Cmd: TRANSACTION UNDO
+[2024.02.22-20.37.07:051][978]LogEditorTransaction: Undo Activate Tool
+[2024.02.22-20.37.07:634][985]Cmd: TRANSACTION UNDO
+[2024.02.22-20.37.07:634][985]LogEditorTransaction: Undo Remesh Mesh
+[2024.02.22-20.37.07:638][985]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.07:638][985]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.08:418][ 38]Cmd: TRANSACTION UNDO
+[2024.02.22-20.37.08:418][ 38]LogEditorTransaction: Undo Remove Occluded Triangles
+[2024.02.22-20.37.08:434][ 38]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.08:434][ 38]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.08:982][ 74]Cmd: TRANSACTION UNDO
+[2024.02.22-20.37.08:982][ 74]LogEditorTransaction: Undo Weld Edges
+[2024.02.22-20.37.08:998][ 74]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.08:998][ 74]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.09:188][ 84]Cmd: TRANSACTION UNDO
+[2024.02.22-20.37.09:189][ 84]LogEditorTransaction: Undo Deform Mesh
+[2024.02.22-20.37.09:205][ 84]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.09:205][ 84]LogStaticMesh: Warning: Merge_64C96B79 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.09:421][ 96]Cmd: TRANSACTION UNDO
+[2024.02.22-20.37.09:421][ 96]LogEditorTransaction: Undo Merge Meshes
+[2024.02.22-20.37.09:687][100]Cmd: TRANSACTION UNDO
+[2024.02.22-20.37.09:688][100]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.22-20.37.19:074][931]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Merge_ABFF9901.Merge_ABFF9901
+[2024.02.22-20.37.19:074][931]LogStaticMesh: Display: Building static mesh Merge_ABFF9901...
+[2024.02.22-20.37.19:076][931]LogActorFactory: Actor Factory spawned StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Merge_ABFF9901.Merge_ABFF9901 as actor: StaticMeshActor /Game/MyContent/Maps/StartLevel.StartLevel:PersistentLevel.StaticMeshActor_8
+[2024.02.22-20.37.19:077][931]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_ABFF9901.Merge_ABFF9901
+[2024.02.22-20.37.19:077][931]LogStaticMesh: Warning: Merge_ABFF9901 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.19:077][931]LogStaticMesh: Warning: Merge_ABFF9901 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.21:682][184]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-20.37.21:690][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-20.37.21:690][184]PIE: New page: PIE session: StartLevel (Feb 22, 2024, 2:37:21 PM)
+[2024.02.22-20.37.21:690][184]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_StartLevel
+[2024.02.22-20.37.21:704][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013356s)
+[2024.02.22-20.37.21:704][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/StartLevel.StartLevel to /Game/MyContent/Maps/UEDPIE_0_StartLevel.StartLevel (0.013403s)
+[2024.02.22-20.37.21:722][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.02.22-20.37.21:727][184]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-20.37.21:727][184]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-20.37.21:728][184]LogAIModule: Creating AISystem for world StartLevel
+[2024.02.22-20.37.21:728][184]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2024.02.22-20.37.21:728][184]LogAudio: Display: Creating Audio Device:                 Id: 91, Scope: Unique, Realtime: True
+[2024.02.22-20.37.21:728][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-20.37.21:728][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-20.37.21:728][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-20.37.21:728][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-20.37.21:728][184]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-20.37.21:728][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-20.37.21:728][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-20.37.21:728][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-20.37.21:729][184]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-20.37.21:729][184]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-20.37.21:729][184]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-20.37.21:731][184]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-20.37.21:767][184]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.02.22-20.37.21:767][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-20.37.21:767][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-20.37.21:767][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-20.37.21:768][184]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=91
+[2024.02.22-20.37.21:768][184]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=91
+[2024.02.22-20.37.21:770][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=91
+[2024.02.22-20.37.21:770][184]LogInit: FAudioDevice initialized with ID 91.
+[2024.02.22-20.37.21:770][184]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=91
+[2024.02.22-20.37.21:770][184]LogAudio: Display: Audio Device (ID: 91) registered with world 'StartLevel'.
+[2024.02.22-20.37.21:770][184]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 91
+[2024.02.22-20.37.21:774][184]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-20.37.21:783][184]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2024.02.22-17.37.21
+[2024.02.22-20.37.21:784][184]LogWorld: Bringing up level for play took: 0.009288
+[2024.02.22-20.37.21:786][184]LogOnline: OSS: Created online subsystem instance for: :Context_120
+[2024.02.22-20.37.21:793][184]PIE: Server logged in
+[2024.02.22-20.37.21:794][184]PIE: Play in editor total start time 0.104 seconds.
+[2024.02.22-20.37.23:113][311]Set new viewmode: Wireframe
+[2024.02.22-20.37.26:457][709]Set new viewmode: Wireframe
+[2024.02.22-20.37.27:390][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.37.27:390][815]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_StartLevel
+[2024.02.22-20.37.27:390][815]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-20.37.27:391][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.37.27:395][815]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-20.37.27:402][815]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.37.27:419][815]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.22-20.37.27:420][815]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 91
+[2024.02.22-20.37.27:420][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2024.02.22-20.37.27:422][815]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2024.02.22-20.37.27:426][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.37.27:431][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.02.22-20.37.27:540][816]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2024.02.22-20.37.30:791][119]LogStaticMesh: Display: Building static mesh Merge_ABFF9901...
+[2024.02.22-20.37.30:794][119]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_ABFF9901.Merge_ABFF9901
+[2024.02.22-20.37.30:795][119]LogStaticMesh: Warning: Merge_ABFF9901 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.30:795][119]LogStaticMesh: Warning: Merge_ABFF9901 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.35:406][488]LogStaticMesh: Display: Building static mesh Merge_ABFF9901...
+[2024.02.22-20.37.35:409][488]LogStaticMesh: Built static mesh [0.00s] /Game/MyContent/Maps/_GENERATED/jhonn/Merge_ABFF9901.Merge_ABFF9901
+[2024.02.22-20.37.35:409][488]LogStaticMesh: Warning: Merge_ABFF9901 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.35:409][488]LogStaticMesh: Warning: Merge_ABFF9901 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.02.22-20.37.38:852][809]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.22-20.37.38:860][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-20.37.38:860][809]PIE: New page: PIE session: StartLevel (Feb 22, 2024, 2:37:38 PM)
+[2024.02.22-20.37.38:860][809]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_StartLevel
+[2024.02.22-20.37.38:873][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013166s)
+[2024.02.22-20.37.38:873][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/StartLevel.StartLevel to /Game/MyContent/Maps/UEDPIE_0_StartLevel.StartLevel (0.013213s)
+[2024.02.22-20.37.38:895][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.22-20.37.38:900][809]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.22-20.37.38:900][809]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.22-20.37.38:901][809]LogAIModule: Creating AISystem for world StartLevel
+[2024.02.22-20.37.38:902][809]LogPlayLevel: PIE: World Init took: (0.001339s)
+[2024.02.22-20.37.38:902][809]LogAudio: Display: Creating Audio Device:                 Id: 92, Scope: Unique, Realtime: True
+[2024.02.22-20.37.38:902][809]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.22-20.37.38:902][809]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.22-20.37.38:902][809]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.22-20.37.38:902][809]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.22-20.37.38:902][809]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.22-20.37.38:902][809]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.22-20.37.38:902][809]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.22-20.37.38:902][809]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.22-20.37.38:902][809]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.22-20.37.38:902][809]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.22-20.37.38:902][809]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.22-20.37.38:905][809]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.22-20.37.38:940][809]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.02.22-20.37.38:941][809]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.22-20.37.38:941][809]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.22-20.37.38:941][809]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.22-20.37.38:942][809]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=92
+[2024.02.22-20.37.38:942][809]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=92
+[2024.02.22-20.37.38:944][809]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=92
+[2024.02.22-20.37.38:944][809]LogInit: FAudioDevice initialized with ID 92.
+[2024.02.22-20.37.38:944][809]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=92
+[2024.02.22-20.37.38:944][809]LogAudio: Display: Audio Device (ID: 92) registered with world 'StartLevel'.
+[2024.02.22-20.37.38:944][809]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 92
+[2024.02.22-20.37.38:947][809]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.22-20.37.38:956][809]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2024.02.22-17.37.38
+[2024.02.22-20.37.38:957][809]LogWorld: Bringing up level for play took: 0.009101
+[2024.02.22-20.37.38:959][809]LogOnline: OSS: Created online subsystem instance for: :Context_121
+[2024.02.22-20.37.38:965][809]PIE: Server logged in
+[2024.02.22-20.37.38:966][809]PIE: Play in editor total start time 0.107 seconds.
+[2024.02.22-20.37.40:042][911]Set new viewmode: Wireframe
+[2024.02.22-20.37.44:324][424]Set new viewmode: Wireframe
+[2024.02.22-20.37.45:109][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.37.45:109][514]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_StartLevel
+[2024.02.22-20.37.45:110][514]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.22-20.37.45:111][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.37.45:115][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-20.37.45:122][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.22-20.37.45:143][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.37.45:143][514]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 92
+[2024.02.22-20.37.45:143][514]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
+[2024.02.22-20.37.45:146][514]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
+[2024.02.22-20.37.45:156][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.22-20.37.45:270][515]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2024.02.22-20.38.00:604][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.02.22-20.38.01:525][939]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.22-20.38.01:548][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.02.22-20.38.01:572][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.02.22-20.38.01:595][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.02.22-20.38.14:393][ 53]LogContentBrowser: Attempting asset rename: Merge_ABFF9901 -> Merge_StaticMesh
+[2024.02.22-20.38.14:435][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.38.14:543][ 53]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh
+[2024.02.22-20.38.14:543][ 53]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Merge_StaticMesh18693CB44D3BF6E34EBD7E97D73AF9F6.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh.uasset'
+[2024.02.22-20.38.14:554][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 11.6 sec)
+[2024.02.22-20.38.14:642][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.02.22-20.38.14:668][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.02.22-20.38.14:691][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.02.22-20.38.14:694][ 53]AssetCheck: New page: Asset Save: Merge_StaticMesh
+[2024.02.22-20.38.14:694][ 53]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh.Merge_StaticMesh
+[2024.02.22-20.38.23:177][840]LogContentBrowser: Attempting asset rename: Platform_staticmesh -> Platform_StaticMesh
+[2024.02.22-20.38.23:250][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.02.22-20.38.23:274][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.22-20.38.23:297][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.02.22-20.38.23:300][840]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.38.23:362][840]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/_GENERATED/jhonn/Platform_StaticMesh
+[2024.02.22-20.38.23:362][840]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Platform_StaticMesh6BAFB5A9449EC01E45CE32ACF8B3ED77.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/Platform_StaticMesh.uasset'
+[2024.02.22-20.38.23:369][840]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 11.6 sec)
+[2024.02.22-20.38.23:397][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.02.22-20.38.23:440][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.02.22-20.38.23:457][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.22-20.38.23:461][840]AssetCheck: New page: Asset Save: Platform_StaticMesh
+[2024.02.22-20.38.23:461][840]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/Platform_StaticMesh.Platform_StaticMesh
+[2024.02.22-20.38.28:074][278]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.38.28:117][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/StartLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.38.28:165][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.02.22-20.38.28:211][278]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/StartLevel
+[2024.02.22-20.38.28:212][278]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/StartLevel715A91304ADC297524FC70BF52D6329D.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap'
+[2024.02.22-20.38.28:219][278]LogFileHelpers: Saving map 'StartLevel' took 0.102
+[2024.02.22-20.38.28:227][278]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 11.8 sec)
+[2024.02.22-20.38.28:229][278]AssetCheck: New page: Asset Save: StartLevel
+[2024.02.22-20.38.28:229][278]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/StartLevel.StartLevel
+[2024.02.22-20.39.03:749][ 81]LogContentBrowser: Attempting asset rename: Merge_StaticMesh -> MedKit_StaticMesh
+[2024.02.22-20.39.03:791][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.22-20.39.03:843][ 81]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/_GENERATED/jhonn/MedKit_StaticMesh
+[2024.02.22-20.39.03:843][ 81]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/MedKit_StaticMesh02EB2FB6419646930FBAD9ACF902DADD.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/MedKit_StaticMesh.uasset'
+[2024.02.22-20.39.03:848][ 81]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh
+[2024.02.22-20.39.03:849][ 81]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Merge_StaticMeshF125199C40EA034284ACA3B2408A28EB.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh.uasset'
+[2024.02.22-20.39.03:856][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 11.8 sec)
+[2024.02.22-20.39.03:858][ 81]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.22-20.39.03:858][ 81]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/MyContent/Maps/_GENERATED/jhonn/MedKit_StaticMesh.MedKit_StaticMesh
+[2024.02.22-20.39.03:858][ 81]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/MyContent/Maps/_GENERATED/jhonn/Merge_StaticMesh.Merge_StaticMesh
+[2024.02.22-20.39.53:892][417]Cmd: DELETE
+[2024.02.22-20.39.53:892][417]Cmd: ACTOR DELETE
+[2024.02.22-20.39.53:905][417]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.22-20.39.53:928][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.02.22-20.39.53:932][417]LogEditorActor: Deleted 1 Actors (0.031 secs)
