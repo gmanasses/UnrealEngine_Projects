@@ -3977,3 +3977,116 @@ Make sure 'GateRemote_InteractiveObject_C' has been compiled for  Get
 [2024.02.26-14.20.15:005][ 67]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyContent/Programming/InteractiveObject.InteractiveObject
 [2024.02.26-14.20.22:419][944]BlueprintLog: New page: Compile InteractiveObject
 [2024.02.26-14.20.22:492][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.02.26-14.28.43:727][593]LogDerivedDataCache: C:/Users/jhonn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.212 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5996 files in 7459 folders with total size 361 MiB.
+[2024.02.26-14.29.35:671][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.02.26-14.29.35:675][748]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MyContent/Maps/StartLevel' took 0.026
+[2024.02.26-14.29.35:676][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Programming/UI/HUD" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Saved/Autosaves/Game/MyContent/Programming/UI/HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.02.26-14.33.52:902][593]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.26-14.38.11:657][815]Cmd: DELETE
+[2024.02.26-14.38.11:657][815]Cmd: ACTOR DELETE
+[2024.02.26-14.38.11:672][815]LogEditorActor: Deleted Actor: InteractiveObject_C
+[2024.02.26-14.38.11:730][815]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.02.26-14.38.11:737][815]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2024.02.26-14.38.12:434][878]Cmd: DELETE
+[2024.02.26-14.38.12:434][878]Cmd: ACTOR DELETE
+[2024.02.26-14.38.12:439][878]LogEditorActor: Deleted Actor: InteractiveObject_C
+[2024.02.26-14.38.12:457][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.02.26-14.38.12:461][878]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2024.02.26-14.38.39:130][118]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-14.38.39:183][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/StartLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.26-14.38.39:240][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.26-14.38.39:293][118]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/StartLevel
+[2024.02.26-14.38.39:294][118]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/StartLevelDDA17BD74842BCDCAA3949B6F901887B.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap'
+[2024.02.26-14.38.39:303][118]LogFileHelpers: Saving map 'StartLevel' took 0.121
+[2024.02.26-14.38.39:313][118]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 8.35 sec)
+[2024.02.26-14.38.39:316][118]AssetCheck: New page: Asset Save: StartLevel
+[2024.02.26-14.38.39:316][118]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/StartLevel.StartLevel
+[2024.02.26-14.38.46:613][857]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.26-14.38.48:442][964]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.26-14.38.57:263][813]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.02.26-14.38.59:041][960]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-14.38.59:092][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/StartLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.26-14.38.59:137][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.02.26-14.38.59:192][960]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/StartLevel
+[2024.02.26-14.38.59:192][960]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/StartLevelE4B4B2F44A07522A378D13AE2911259A.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap'
+[2024.02.26-14.38.59:201][960]LogFileHelpers: Saving map 'StartLevel' took 0.110
+[2024.02.26-14.38.59:210][960]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 8.52 sec)
+[2024.02.26-14.38.59:214][960]AssetCheck: New page: Asset Save: StartLevel
+[2024.02.26-14.38.59:214][960]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/StartLevel.StartLevel
+[2024.02.26-14.38.59:636][993]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.26-14.38.59:645][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.26-14.38.59:645][993]PIE: New page: PIE session: StartLevel (Feb 26, 2024, 8:38:59 AM)
+[2024.02.26-14.38.59:672][993]LogPlayLevel: Creating play world package: /Game/MyContent/Maps/UEDPIE_0_StartLevel
+[2024.02.26-14.38.59:687][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014737s)
+[2024.02.26-14.38.59:687][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyContent/Maps/StartLevel.StartLevel to /Game/MyContent/Maps/UEDPIE_0_StartLevel.StartLevel (0.014795s)
+[2024.02.26-14.38.59:705][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.26-14.38.59:708][993]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-14.38.59:708][993]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.26-14.38.59:709][993]LogAIModule: Creating AISystem for world StartLevel
+[2024.02.26-14.38.59:709][993]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2024.02.26-14.38.59:709][993]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.02.26-14.38.59:709][993]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.26-14.38.59:709][993]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.26-14.38.59:709][993]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.26-14.38.59:709][993]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.26-14.38.59:709][993]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.26-14.38.59:709][993]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.26-14.38.59:709][993]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.26-14.38.59:710][993]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.26-14.38.59:710][993]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.26-14.38.59:710][993]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.26-14.38.59:710][993]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.26-14.38.59:713][993]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.26-14.38.59:752][993]LogAudioMixer: Display: Using Audio Hardware Device Speakers (High Definition Audio Device)
+[2024.02.26-14.38.59:753][993]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.26-14.38.59:753][993]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.26-14.38.59:753][993]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.26-14.38.59:754][993]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.02.26-14.38.59:754][993]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.02.26-14.38.59:756][993]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.02.26-14.38.59:756][993]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.02.26-14.38.59:756][993]LogInit: FAudioDevice initialized with ID 28.
+[2024.02.26-14.38.59:756][993]LogAudio: Display: Audio Device (ID: 28) registered with world 'StartLevel'.
+[2024.02.26-14.38.59:756][993]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.02.26-14.38.59:765][993]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.26-14.38.59:774][993]LogWorld: Bringing World /Game/MyContent/Maps/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 0) at 2024.02.26-11.38.59
+[2024.02.26-14.38.59:774][993]LogWorld: Bringing up level for play took: 0.009434
+[2024.02.26-14.38.59:777][993]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.02.26-14.38.59:785][993]PIE: Server logged in
+[2024.02.26-14.38.59:786][993]PIE: Play in editor total start time 0.141 seconds.
+[2024.02.26-14.39.08:652][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.26-14.39.08:652][972]LogWorld: BeginTearingDown for /Game/MyContent/Maps/UEDPIE_0_StartLevel
+[2024.02.26-14.39.08:653][972]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2024.02.26-14.39.08:654][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-14.39.08:661][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.26-14.39.08:668][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-14.39.08:685][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.26-14.39.08:686][972]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.02.26-14.39.08:686][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.02.26-14.39.08:689][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.02.26-14.39.08:698][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.02.26-14.39.08:784][973]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.02.26-14.41.24:796][101]Cmd: DELETE
+[2024.02.26-14.41.24:796][101]Cmd: ACTOR DELETE
+[2024.02.26-14.41.24:802][101]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.26-14.41.24:823][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.02.26-14.41.24:827][101]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.02.26-14.43.17:104][249]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-14.43.17:158][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Maps/StartLevel" FILE="D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.26-14.43.17:208][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.02.26-14.43.17:262][249]LogSavePackage: Moving output files for package: /Game/MyContent/Maps/StartLevel
+[2024.02.26-14.43.17:262][249]LogSavePackage: Moving 'D:/Git/UnrealEngine_Projects/FirstSteps/Saved/StartLevelDA68EE43415D2AD31C39F6AC0C71CEA5.tmp' to 'D:/Git/UnrealEngine_Projects/FirstSteps/Content/MyContent/Maps/StartLevel.umap'
+[2024.02.26-14.43.17:271][249]LogFileHelpers: Saving map 'StartLevel' took 0.114
+[2024.02.26-14.43.17:279][249]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 8.69 sec)
+[2024.02.26-14.43.17:283][249]AssetCheck: New page: Asset Save: StartLevel
+[2024.02.26-14.43.17:283][249]LogContentValidation: Display: Validating /Script/Engine.World /Game/MyContent/Maps/StartLevel.StartLevel
+[2024.02.26-14.48.04:530][908]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.02.26-14.48.04:530][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-14.48.04:544][908]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.02.26-14.48.04:544][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-14.49.14:298][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.02.26-14.49.20:732][443]LogSlate: Window 'Save Content' being destroyed
+[2024.02.26-14.49.20:743][443]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-14.49.20:831][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.02.26-14.49.20:843][443]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 8.79 sec)
+[2024.02.26-14.49.20:854][443]LogAutomationController: Ignoring very large delta of 6.58 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
