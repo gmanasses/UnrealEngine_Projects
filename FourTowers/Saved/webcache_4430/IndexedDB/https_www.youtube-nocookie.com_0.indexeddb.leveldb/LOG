@@ -1,0 +1,6 @@
+2024/03/04-20:37:54.046 535c Creating DB D:/Git/UnrealEngine_Projects/FourTowers/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2024/03/04-20:37:54.061 535c Reusing MANIFEST D:/Git/UnrealEngine_Projects/FourTowers/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/04-20:40:46.694 5fec Level-0 table #5: started
+2024/03/04-20:40:46.704 5fec Level-0 table #5: 1321 bytes OK
+2024/03/04-20:40:46.708 5fec Delete type=0 #3
+2024/03/04-20:40:46.709 5fec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
