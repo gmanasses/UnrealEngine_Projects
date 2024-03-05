@@ -1,2 +1,3 @@
-2024/03/04-20:34:41.620 6154 Creating DB D:/Git/UnrealEngine_Projects/FourTowers/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2024/03/04-20:34:41.639 6154 Reusing MANIFEST D:/Git/UnrealEngine_Projects/FourTowers/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/03/04-21:11:09.999 52b0 Reusing MANIFEST D:/Git/UnrealEngine_Projects/FourTowers/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/03/04-21:11:10.000 52b0 Recovering log #3
+2024/03/04-21:11:10.001 52b0 Reusing old log D:/Git/UnrealEngine_Projects/FourTowers/Saved/webcache_4430\Local Storage\leveldb/000003.log 
