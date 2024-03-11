@@ -1,5 +1,5 @@
 {
-	"fileVersion": 14,
+	"fileVersion": 15,
 	"versionSuffix": "",
 	"title": "MyFirstProject",
 	"description": "",
@@ -7,7 +7,7 @@
 	"docsUrl": "",
 	"kind": "Island",
 	"templateCategory": "UserGenerated",
-	"compatibilityVersion": "28.30",
+	"compatibilityVersion": "29.00",
 	"editorPermissions": [],
 	"epicApp": "",
 	"sortPriority": 0,
@@ -40,5 +40,6 @@
 		{
 			"MyFirstProject": "1ffa8650-44c8-6f46-89dc-46a751d56143"
 		}
-	}
+	},
+	"featureSet": ""
 }
