@@ -1,6 +1,14 @@
 {
     "folders": [
         {
+            "name": "MyFirstProject",
+            "path": "D:/Git/UnrealEngine_Projects/UEFN Training/MyFirstProject/Plugins/MyFirstProject/Content"
+        },
+        {
+            "name": "MyFirstProject/Assets",
+            "path": "C:/Users/jhonn/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/MyFirstProject/MyFirstProject-Assets"
+        },
+        {
             "name": "vproject - DO NOT MODIFY",
             "path": "C:/Users/jhonn/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/MyFirstProject/vproject"
         },
@@ -15,10 +23,6 @@
         {
             "name": "Fortnite",
             "path": "C:/Users/jhonn/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/MyFirstProject/Fortnite"
-        },
-        {
-            "name": "MyFirstProject",
-            "path": "D:/Git/UnrealEngine_Projects/UEFN Training/MyFirstProject/Plugins/MyFirstProject/Content"
         }
     ],
     "settings": {
