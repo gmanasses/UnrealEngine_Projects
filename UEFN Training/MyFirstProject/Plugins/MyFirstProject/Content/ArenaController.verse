@@ -11,5 +11,4 @@ ArenaController := class(creative_device):
     # Runs when the device is started in a running game
     OnBegin<override>()<suspends>:void=
         # TODO: Replace this with your code
-        Print("Hello, world!")
-        Print("2 + 2 = {2 + 2}")
+        Print("Arena Controller was Activated.")
