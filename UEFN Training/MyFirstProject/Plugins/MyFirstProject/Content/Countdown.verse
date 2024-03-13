@@ -11,27 +11,42 @@ Countdown := class(creative_device):
 
     # Vars
     @editable
-    AddTimeToCounter : button_device = button_device{}
+    AddTimeButton : button_device = button_device{}
 
     @editable
     EndGame : end_game_device = end_game_device{}
 
-    var CountdownTimer : Timer = Timer{}
+    @editable
     InitialCountdownTime : float = 20.0
+
+    @editable
+    TimeToAddOnClick : float = 20.0
+    
+    var CountdownTimer : Timer = Timer{}
+    var PlayerAlreadyStartedCountdown : logic = false
 
     
     # Core Functions
     OnBegin<override>()<suspends> : void =
         Print("CountDown was Activated.")
+        ButtonSubscription := AddTimeButton.InteractedWithEvent.Subscribe(OnButtonInteractedWith)
 
-        if:
-            FirstPlayer := Self.GetPlayspace().GetPlayers()[0]
-            PlayerUI := GetPlayerUI[player[FirstPlayer]]
-        then:
-            set CountdownTimer = Timer{TimerUI := option{PlayerUI}, RemainingTime := InitialCountdownTime}
-            CountdownTimer.StartCountdown()
+
+    OnButtonInteractedWith(InAgent:agent) : void =
+        if (PlayerAlreadyStartedCountdown?):
+            CountdownTimer.AddTime(TimeToAddOnClick)
+
         else:
-            Print("Can't find player")
+            set PlayerAlreadyStartedCountdown = true
+
+            if:
+                FirstPlayer := Self.GetPlayspace().GetPlayers()[0]
+                PlayerUI := GetPlayerUI[player[FirstPlayer]]
+            then:
+                set CountdownTimer = Timer{TimerUI := option{PlayerUI}, RemainingTime := InitialCountdownTime}
+                CountdownTimer.StartCountdown()
+            else:
+                Print("Can't find player")
 
 
 
@@ -41,6 +56,7 @@ Timer := class:
     var RemainingTime : float = 0.0
     RemainingTimeWidget : text_block = text_block{DefaultTextColor := NamedColors.White}
     RemainingTimeText<localizes>(CurrentRemainingTime : int) : message = "{CurrentRemainingTime}"
+    TimerTickPeriod : float = 1.0
 
     block:
         set Canvas = canvas:
@@ -55,14 +71,32 @@ Timer := class:
                     Widget := RemainingTimeWidget
 
 
-    StartCountdown() : void =
-        Print("Starting countdown")
-    
+    StartCountdown() : void =    
         if (PlayerUI := TimerUI?):
             PlayerUI.AddWidget(Canvas)
             UpdateUI()
+            spawn:
+                RunCountdown()
 
-            
+
+    RunCountdown()<suspends> : void =
+        loop:
+            Sleep(TimerTickPeriod)
+            set RemainingTime -= TimerTickPeriod
+    
+            UpdateUI()
+    
+            if (RemainingTime <= 0.0):
+                if (PlayerUI := TimerUI?):
+                    PlayerUI.RemoveWidget(Canvas)
+                break
+
+
+    AddTime(TimeToAdd : float) : void =
+        set RemainingTime += TimeToAdd
+        UpdateUI()
+
+
     UpdateUI() : void =
         if (IntTime := Int[RemainingTime]):
             RemainingTimeWidget.SetText(RemainingTimeText(IntTime))
