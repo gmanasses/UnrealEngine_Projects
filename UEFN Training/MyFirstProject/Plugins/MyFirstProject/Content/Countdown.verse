@@ -12,15 +12,16 @@ Countdown := class(creative_device):
     # Vars
     @editable
     AddTimeButton : button_device = button_device{}
-
+    AddTimeText<localizes>:message = "Add More Time"
+    
     @editable
-    EndGame : end_game_device = end_game_device{}
-
+    InitialCountdownTime : int = 20
+    
     @editable
-    InitialCountdownTime : float = 20.0
-
+    TimeToAddOnClick : int = 10
+    
     @editable
-    TimeToAddOnClick : float = 20.0
+    TimeShowingAddedTime : float = 1.0
     
     var CountdownTimer : Timer = Timer{}
     var PlayerAlreadyStartedCountdown : logic = false
@@ -34,29 +35,34 @@ Countdown := class(creative_device):
 
     OnButtonInteractedWith(InAgent:agent) : void =
         if (PlayerAlreadyStartedCountdown?):
-            CountdownTimer.AddTime(TimeToAddOnClick)
+            CountdownTimer.AddTime(TimeToAddOnClick, TimeShowingAddedTime)
 
         else:
             set PlayerAlreadyStartedCountdown = true
-
+            AddTimeButton.SetInteractionText(AddTimeText)
+            
             if:
                 FirstPlayer := Self.GetPlayspace().GetPlayers()[0]
                 PlayerUI := GetPlayerUI[player[FirstPlayer]]
+
             then:
                 set CountdownTimer = Timer{TimerUI := option{PlayerUI}, RemainingTime := InitialCountdownTime}
                 CountdownTimer.StartCountdown()
+
             else:
                 Print("Can't find player")
 
 
 
-Timer := class:
+Timer := class<concrete>:
     TimerUI : ?player_ui = false
     var Canvas : canvas = canvas{}
-    var RemainingTime : float = 0.0
+    var RemainingTime : int = 0
+    TimerTickPeriod : float = 1.0 
     RemainingTimeWidget : text_block = text_block{DefaultTextColor := NamedColors.White}
     RemainingTimeText<localizes>(CurrentRemainingTime : int) : message = "{CurrentRemainingTime}"
-    TimerTickPeriod : float = 1.0
+    AddTimeWidget : text_block = text_block{DefaultTextColor := NamedColors.White} 
+    AddTimeText<localizes>(AddedTime : int) : message = "+ {AddedTime}!"
 
     block:
         set Canvas = canvas:
@@ -66,9 +72,17 @@ Timer := class:
                         Minimum := vector2{X := 0.5, Y := 0.05}
                         Maximum := vector2{X := 0.5, Y := 0.05}
                     Alignment := vector2{X := 0.5, Y := 0.0}
-                    Offsets := margin{Top := 0.0, Left := 0.0, Bottom := 0.0, Right := 0.0}
+                    Offsets := margin{Top := 25.0, Left := 0.0, Bottom := 0.0, Right := 0.0}
                     SizeToContent := true
                     Widget := RemainingTimeWidget
+                canvas_slot:
+                    Anchors := anchors:
+                        Minimum := vector2{X := 0.5, Y := 0.05}
+                        Maximum := vector2{X := 0.5, Y := 0.05}
+                    Alignment := vector2{X := 0.5, Y := 0.0}
+                    Offsets := margin{Top := 0.0, Left := 50.0, Bottom := 0.0, Right := 0.0}
+                    SizeToContent := true
+                    Widget := AddTimeWidget
 
 
     StartCountdown() : void =    
@@ -82,21 +96,35 @@ Timer := class:
     RunCountdown()<suspends> : void =
         loop:
             Sleep(TimerTickPeriod)
-            set RemainingTime -= TimerTickPeriod
+            if: 
+                var ConversionNum : int = Floor[TimerTickPeriod]
+                set RemainingTime -= ConversionNum
     
             UpdateUI()
     
-            if (RemainingTime <= 0.0):
+            if (RemainingTime <= 0):
                 if (PlayerUI := TimerUI?):
                     PlayerUI.RemoveWidget(Canvas)
                 break
 
 
-    AddTime(TimeToAdd : float) : void =
+    AddTime(TimeToAdd : int, TimeShowingUI: float) : void =
         set RemainingTime += TimeToAdd
         UpdateUI()
 
+        spawn:
+            ShowAddTimeUI(TimeShowingUI, TimeToAdd)
+
+
+    ShowAddTimeUI(TimeShowingText : float, TextTimeAdded : int)<suspends> : void =
+        if:
+            PlayerUI := TimerUI?
+        then:
+            AddTimeWidget.SetVisibility(widget_visibility.Visible)
+            AddTimeWidget.SetText(AddTimeText(TextTimeAdded))
+            Sleep(TimeShowingText)
+            AddTimeWidget.SetVisibility(widget_visibility.Hidden)
+
 
     UpdateUI() : void =
-        if (IntTime := Int[RemainingTime]):
-            RemainingTimeWidget.SetText(RemainingTimeText(IntTime))
+        RemainingTimeWidget.SetText(RemainingTimeText(RemainingTime))
