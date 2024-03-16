@@ -2,7 +2,6 @@ using { /Fortnite.com/Devices }
 using { /Fortnite.com/UI }
 using { /Verse.org/Colors }
 using { /Verse.org/Simulation }
-using { /UnrealEngine.com/Temporary/Diagnostics }
 using { /UnrealEngine.com/Temporary/UI }
 using { /UnrealEngine.com/Temporary/SpatialMath }
 
@@ -12,6 +11,7 @@ Countdown := class(creative_device):
     # Vars
     @editable
     AddTimeButton : button_device = button_device{}
+    StartTimerText<localizes>:message = "Start Countdown Timer"
     AddTimeText<localizes>:message = "Add More Time"
     
     @editable
@@ -30,6 +30,7 @@ Countdown := class(creative_device):
     # Core Functions
     OnBegin<override>()<suspends> : void =
         Print("CountDown was Activated.")
+        AddTimeButton.SetInteractionText(StartTimerText)
         ButtonSubscription := AddTimeButton.InteractedWithEvent.Subscribe(OnButtonInteractedWith)
 
 
@@ -47,7 +48,8 @@ Countdown := class(creative_device):
 
             then:
                 set CountdownTimer = Timer{TimerUI := option{PlayerUI}, RemainingTime := InitialCountdownTime}
-                CountdownTimer.StartCountdown()
+                CountdownTimer.StartCountdown(AddTimeButton, StartTimerText)
+                CountdownTimer.SetInitialTime(InitialCountdownTime)
 
             else:
                 Print("Can't find player")
@@ -58,6 +60,7 @@ Timer := class<concrete>:
     TimerUI : ?player_ui = false
     var Canvas : canvas = canvas{}
     var RemainingTime : int = 0
+    var InitialTime : int = 0
     TimerTickPeriod : float = 1.0 
     RemainingTimeWidget : text_block = text_block{DefaultTextColor := NamedColors.White}
     RemainingTimeText<localizes>(CurrentRemainingTime : int) : message = "{CurrentRemainingTime}"
@@ -85,15 +88,24 @@ Timer := class<concrete>:
                     Widget := AddTimeWidget
 
 
-    StartCountdown() : void =    
+    SetInitialTime(Initial : int) : void = 
+        set InitialTime = Initial
+
+
+    ResetTimer(Button : button_device, ButtonText : message) : void = 
+        set RemainingTime = InitialTime
+        Button.SetInteractionText(ButtonText)
+
+
+    StartCountdown(Button : button_device, ButtonText : message) : void =    
         if (PlayerUI := TimerUI?):
             PlayerUI.AddWidget(Canvas)
             UpdateUI()
             spawn:
-                RunCountdown()
+                RunCountdown(Button, ButtonText)
 
 
-    RunCountdown()<suspends> : void =
+    RunCountdown(Button : button_device, ButtonText : message)<suspends> : void =
         loop:
             Sleep(TimerTickPeriod)
             if: 
@@ -104,7 +116,8 @@ Timer := class<concrete>:
     
             if (RemainingTime <= 0):
                 if (PlayerUI := TimerUI?):
-                    PlayerUI.RemoveWidget(Canvas)
+                    RemainingTimeWidget.SetVisibility(widget_visibility.Hidden)
+                    ResetTimer(Button, ButtonText)
                 break
 
 
