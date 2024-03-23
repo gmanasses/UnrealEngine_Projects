@@ -17,7 +17,6 @@ HealOrHurt := class(creative_device):
 
 
     OnBegin<override>()<suspends>:void=
-        Print("HealOrHurt was Activated.")
         TriggerPlatform.TriggeredEvent.Subscribe(OnTriggered)
 
 

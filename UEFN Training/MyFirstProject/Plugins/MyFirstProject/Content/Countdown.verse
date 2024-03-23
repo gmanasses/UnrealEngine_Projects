@@ -29,7 +29,6 @@ Countdown := class(creative_device):
     
     # Core Functions
     OnBegin<override>()<suspends> : void =
-        Print("CountDown was Activated.")
         AddTimeButton.SetInteractionText(StartTimerText)
         ButtonSubscription := AddTimeButton.InteractedWithEvent.Subscribe(OnButtonInteractedWith)
 
